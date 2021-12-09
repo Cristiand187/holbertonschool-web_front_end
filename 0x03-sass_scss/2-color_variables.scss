@@ -1,0 +1,12 @@
+/* My style */
+$var_color: #3D3D3D;
+$var_background: #6D6D6D;
+body {
+    color: $var_color;
+    background-color: $var_background; }
+  
+  p {
+    color: $var_color; }
+  
+  h2 {
+    background-color: $var_background; }
