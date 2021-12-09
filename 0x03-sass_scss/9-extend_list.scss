@@ -1,13 +1,13 @@
 /* 9-extend_list.scss */
-%font-size {
-    font-size: 12px;
-  }
+.info {
+  font-size: 12px;
+}
+.success {
+  @extend .info;
+  color: #00ff00;
+}
 
-.info, .success, .warning {
-    @extend %font-size }
-  
-  .success {
-    color: #00FF00; }
-  
-  .warning {
-    color: #FF0000; }
+.warning {
+  @extend .info;
+  color: #ff0000;
+}
