@@ -1,0 +1,12 @@
+/* 8. Margin mixin */
+@mixin theme($margin: 10px) {
+    margin-left: $margin;
+    margin-right: $margin; }
+
+body {
+    @include theme;    
+}
+  
+div {
+    @include theme($margin: 15px)
+}
