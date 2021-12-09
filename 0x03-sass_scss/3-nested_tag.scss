@@ -1,0 +1,7 @@
+/* My style */
+$size: 100px;
+body {
+    margin: $size - $size;
+    padding: $size - $size; }
+    body p {
+      margin: $size; }
